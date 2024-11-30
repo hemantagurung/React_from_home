@@ -1,0 +1,28 @@
+.container {
+  margin-left: 50%;
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping of child elements */
+  gap: 20px; /* Adds spacing between the child elements */
+  justify-content: center; /* Centers the child elements horizontally */
+  align-items: flex-start; /* Aligns child elements to the top */
+  padding: 20px;
+  background-color: #f0f0f0; /* Light background for contrast */
+}
+
+.student {
+  flex: 1 1 200px; /* Flexible width with a minimum of 200px */
+  max-width: 300px; /* Limits the maximum width */
+  padding: 15px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff; /* White background for cards */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  font-family: Arial, sans-serif;
+  text-align: center; /* Centers text within the card */
+}
+
+.student p {
+  margin: 5px 0; /* Adds spacing between paragraphs */
+  color: #333; /* Dark text color for readability */
+}

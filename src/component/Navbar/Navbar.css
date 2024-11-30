@@ -1,0 +1,39 @@
+/* Navbar container */
+.navbar {
+  background-color: #004d40; /* Deep teal background */
+  display: flex; /* Flexbox layout */
+  justify-content: space-evenly; /* Evenly space items */
+  align-items: center; /* Center items vertically */
+  padding: 10px 0; /* Vertical padding */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Slight shadow */
+}
+
+/* Links in the navbar */
+.navbar a {
+  color: #ffffff; /* White text color */
+  text-decoration: none; /* Remove link underlines */
+  font-size: 18px; /* Increase font size */
+  padding: 10px 15px; /* Add padding for clickable area */
+  border-radius: 5px; /* Rounded edges for hover effect */
+  transition: all 0.3s ease-in-out; /* Smooth transitions */
+  font-family: "Arial", sans-serif; /* Clean font */
+}
+
+/* Hover state for links */
+.navbar a:hover {
+  background-color: #009688; /* Lighter teal for hover */
+  color: #ffffff; /* Ensure text remains white */
+  transform: scale(1.1); /* Slightly enlarge the link */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically */
+  }
+  .navbar a {
+    width: 100%; /* Full width for better touch interaction */
+    text-align: center; /* Center the text */
+    padding: 15px 0; /* Adjust padding for better spacing */
+  }
+}
