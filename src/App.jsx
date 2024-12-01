@@ -6,21 +6,27 @@
 import React from "react"
 // import Student from "./component/Student/Student"
 import Greetings from "./component/Greetings/Greetings"
+import List from "./component/List/List"
 
-function App() {
+
+  const App = () => {
   
   return (
    
    <div>
-   {/* <Student name="John cena" age={20} isStudent={true} />
-   <Student name="Hemanta" age={22} isStudent={false} />
-   <Student name="Biwash" age={25} isStudent={true} />
-   <Student name="Safal" age={21} isStudent={true} />
-   <Student/> */}
-   <Greetings name="Sujan" isloggedin={true}/>
+    
+    <List/>
+  
+  {/* //  <Student name="John cena" age={20} isStudent={true} />
+  //  <Student name="Hemanta" age={22} isStudent={false} />
+  //  <Student name="Biwash" age={25} isStudent={true} />
+  //  <Student name="Safal" age={21} isStudent={true} />
+  //  <Student/>
+  //  <Greetings name="Sujan" isloggedin={true}/>  */}
+  
 
 
-   </div>
+    </div>
 
     
   )
